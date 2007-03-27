@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scarab</groupId>
+  <artifactId>scarab-incubator</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+
+  <licenses>
+    <license>
+      <name>CollabNet/Tigris.org Apache-style license</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <organization>
+    <name>Tigris</name>
+    <url>http://www.tigris.org</url>
+  </organization>
+  
+  <mailingLists>
+    <mailingList>
+      <name>Developer List</name>
+      <subscribe>dev-subscribe@scarab-incubator.tigris.org</subscribe>
+      <unsubscribe>dev-unsubscribe@scarab-incubator.tigris.org</unsubscribe>
+      <post>dev@scarab-incubator.tigris.org</post>
+      <archive>http://scarab-incubator.tigris.org/servlets/SummarizeList?listName=dev</archive>
+    </mailingList>
+  </mailingLists>
+  
+  <scm>
+    <connection>scm:svn:http://scarab-incubator.tigris.org/svn/scarab-incubator/trunk</connection>
+    <developerConnection>scm:svn:http://scarab-incubator.tigris.org/svn/scarab-incubator/trunk</developerConnection>
+    <tag>HEAD</tag>
+    <url>http://scarab-incubator.tigris.org/source/browse/scarab-incubator/</url>
+  </scm>
+
+</project>
+
