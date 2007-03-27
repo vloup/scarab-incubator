@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>scarab</groupId>
+    <artifactId>scarab-incubator</artifactId>
+    <version>1.0</version>
+    <relativePath>../scarab-incubator</relativePath>
+  </parent>
+  <groupId>scarab</groupId>
+  <artifactId>scarab-persistent-om</artifactId>
+  <version>2.0-dev</version>
+  
+  <dependencies>
+    <!--
+      For installation of ejb3-persistence.jar, refer to:
+      http://rupeal.wordpress.com/2007/02/14/maven-2-and-hibernate-annotations/
+    --> 
+    <dependency>
+      <groupId>javax.persistence</groupId>
+      <artifactId>ejb</artifactId>
+      <version>3.0-public_review</version>
+    </dependency>
+  </dependencies>
+  
+  <name>Scarab Domain Object Model</name>
+  <description>Persistent Object Model on top of the Scarab metamodel.</description>
+  <url>http://scarab-incubator.tigris.org/scarab-persistent-om/</url>
+  <inceptionYear>2007</inceptionYear>
+  
+  <developers>
+    <developer>
+      <id>jfelfouly</id>
+      <name>Jean-Francois El Fouly</name>
+      <email>jfelfouly@tigris.org</email>
+      <url>http://www.elfouly.nom.fr</url>
+      <roles>
+        <role>Architect</role>
+        <role>Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  
+</project>
+
