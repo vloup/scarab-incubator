@@ -40,6 +40,16 @@
       </roles>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>jorgeuriarte</id>
+      <name>Jorge Uriarte</name>
+      <email>jorgeuriarte@tigris.org</email>
+      <url>http://omelas.net</url>
+      <roles>
+        <role>Architect</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
   </developers>
   
 </project>
