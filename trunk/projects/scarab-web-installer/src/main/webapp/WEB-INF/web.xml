@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>InitServlet</servlet-name>
+    <display-name>InitServlet</display-name>
+    <description>Read properties files and init http-related properties.</description>
+    <servlet-class>org.tigris.scarab.tools.install.web.InitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveSettingsServlet</servlet-name>
+    <display-name>SaveSettingsServlet</display-name>
+    <description>Invoked by the various forms in both settings pages to save properties.</description>
+    <servlet-class>org.tigris.scarab.tools.install.web.SaveSettingsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Build1Servlet</servlet-name>
+    <display-name>Build1Servlet</display-name>
+    <description>Invoked to launch the build of the Scarab application.</description>
+    <servlet-class>org.tigris.scarab.tools.install.web.Build1Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuildScarabServlet</servlet-name>
+    <display-name>BuildScarabServlet</display-name>
+    <description>Reports in the JSP the result of the application build.</description>
+    <servlet-class>org.tigris.scarab.tools.install.web.BuildScarabServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Build2Servlet</servlet-name>
+    <display-name>Build2Servlet</display-name>
+    <description>Invoked to launch the build of the Scarab database.</description>
+    <servlet-class>org.tigris.scarab.tools.install.web.Build2Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuildDatabaseServlet</servlet-name>
+    <display-name>BuildDatabaseServlet</display-name>
+    <description>Reports in the JSP the result of the database build.</description>
+    <servlet-class>org.tigris.scarab.tools.install.web.BuildDatabaseServlet</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/InitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveSettingsServlet</servlet-name>
+    <url-pattern>/SaveSettings</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Build1Servlet</servlet-name>
+    <url-pattern>/Build1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildScarabServlet</servlet-name>
+    <url-pattern>/BuildScarabServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Build2Servlet</servlet-name>
+    <url-pattern>/Build2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildDatabaseServlet</servlet-name>
+    <url-pattern>/BuildDatabaseServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

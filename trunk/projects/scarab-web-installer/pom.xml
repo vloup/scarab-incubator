@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>scarab</groupId>
+    <artifactId>scarab-incubator</artifactId>
+    <version>1.0</version>
+    <relativePath>../scarab-incubator</relativePath>
+  </parent>
+  <groupId>scarab-web-installer</groupId>
+  <artifactId>scarab-web-installer</artifactId>
+  <packaging>war</packaging>
+  <version>2007-03-29</version>
+  <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.3</version>
+    </dependency>
+  </dependencies>
+  
+  <name>Scarab Web installer</name>
+  <description>A simple installation web app for Scarab 0.21 and TRUNK.</description>
+  <url>http://scarab-incubator.tigris.org/nonav/scarab-web-installer/</url>
+  <inceptionYear>2006</inceptionYear>
+  
+  <developers>
+    <developer>
+      <id>jfelfouly</id>
+      <name>Jean-Francois El Fouly</name>
+      <email>jfelfouly@tigris.org</email>
+      <url>http://www.elfouly.nom.fr</url>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+</project>
+
